@@ -12,7 +12,7 @@ export class Register extends React.Component {
         <div className='header'></div>
         <div className='content'>
           <div className='image'>
-            <img src='loginImg ' alt='' />
+            <img src={loginImg} alt='' />
           </div>
           <div className='from'>
             <div className='from-group'>

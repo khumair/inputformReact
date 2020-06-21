@@ -11,16 +11,16 @@ export class Login extends React.Component {
         <div className='header'></div>
         <div className='content'>
           <div className='image'>
-            <img src='loginImg ' alt='' />
+            <img src={loginImg} alt='' />
           </div>
-          <div className='from'>
-            <div className='from-group'>
-              <label htmlFor='username'>username</label>
+          <div className='form'>
+            <div className='form-group'>
+              <label htmlFor='username'>Username</label>
               <input type='text' name='username' placeholder='username ' />
             </div>
-            <div className='from-group'>
+            <div className='form-group'>
               <label htmlFor='username'>Password</label>
-              <input type='Password' name='password' placeholder='username ' />
+              <input type='password' name='password' placeholder='Password' />
             </div>
           </div>
         </div>
